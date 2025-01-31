@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("money scripts combat", "BloodTheme")
+local Window = Library.CreateLib("Combat Warriors V1", "BloodTheme")
 
 local Tab = Window:NewTab("Main")
 local Tab1 = Window:NewTab("Credits")
@@ -7,7 +7,7 @@ local Tab1 = Window:NewTab("Credits")
 local Section = Tab:NewSection("Combat warriors")
 local Section1 = Tab1:NewSection("credits")
 
-Section:NewButton("Big hitbox", "ButtonInfo", function()
+Section:NewButton("Hitbox Expander", "ButtonInfo", function()
 local HeadSize = 20
 local Disabled = true
 
@@ -33,7 +33,7 @@ game:GetService('RunService').RenderStepped:Connect(function()
 end)
 end)
 
-Section:NewButton("Speedbypass full flash", "ButtonInfo", function()
+Section:NewButton("Speedhack", "ButtonInfo", function()
     function isNumber(str)
 
   if tonumber(str) ~= nil or str == 'inf' then
@@ -77,5 +77,5 @@ while tpwalking and hb:Wait() and chr and hum and hum.Parent do
 end
 end)
 
-Section1:NewLabel("Huge credits to proxigoat for making the script")
-Section1:NewLabel("credits to mezzo for the script :D")
+Section1:NewLabel("Credits to benitodub")
+Section1:NewLabel("BenitoDub is smegma")
